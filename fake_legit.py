@@ -16,7 +16,7 @@ try:
 except Exception as e:
     print(f"Error: {e}")
         
-csv_file_path = 'asset_list.csv'
+csv_file_path = 'assets_tf.csv'
 
 df = pd.read_csv(csv_file_path, delimiter='\t')
 
